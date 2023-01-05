@@ -1,0 +1,21 @@
+select * from tbcliente; 
+
+select NOME, ENDEREÇO1 from tbcliente;
+
+select * from tbcliente where nome like ('%Cavalcante%')
+
+select * from tbcliente where nome like ('%César%')
+
+select * from tbcliente where nome like ('% César %')
+
+select * from tbcliente where nome like ('% César %')
+
+select * from tbcliente order by cpf;
+
+select * from tbcliente order by cpf;
+
+select * from tbproduto where PRECO_LISTA >= 28.51 and PRECO_LISTA <= 30.0;
+
+select * from tbproduto where PRECO_LISTA between 28.51 and 30.0;
+
+select * from tbcliente where ENDEREÇO2!="";
